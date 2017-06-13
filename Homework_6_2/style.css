@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h3 {
+	text-align: center;
+}
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	border-spacing: 0;
+}
+td,th {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+.name {
+	text-align: left;
+}
+/*Задание 2*//*Задание 3*/
+
+.table_two th, .table_two td, .table_three th, .table_three td{
+	text-align: left;
+	border: none;
+	padding-right: 100px;
+}
+.table_two th,.table_three th,.table_three tr{
+	border-bottom: 1px solid grey;
+}
+
+/*Задание 4*/
+
+.table_four {
+ 	font-family: Arial,sans-serif;
+ 	padding: 20px;
+ 	margin: 0;
+ }
+
+.table_four th, .table_four td {
+	border: none;
+	text-align: left;
+	border-bottom: 1px solid grey;
+	margin-top: 6px;
+}
+.red {
+	color: red;
+}
+.bg_red {
+	width: 15px;
+	height: 15px;
+	background: red;
+	background-size: 80%;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.bg_red_delete {
+	background: #DC5047;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+}
+.table_four {
+ 	font-family: Arial,sans-serif;
+ 	border-spacing:7px 11px;
+ }
+ .conteiner {
+ 	border: 1px solid grey;
+ 	border-radius: 9px;
+ 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+ 	padding:30px;
+ 	margin: 0 auto;
+ 	display: block;
+ 	width: 607px;
+ }
+.close {
+	top: 4px;
+    right: 7px;
+	height: 15px;
+	width: 15px;
+	background: url(close.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+}
+.grey {
+	color: grey;
+	text-align: right;
+}
+.padding_top {
+	padding-top: 10px;
+	text-align: right;
+}
+.center_red_text {
+	padding-top: 10px;
+	color: red;
+	text-align: center;
+}
+.conteiner {
+	position: relative;
+}
