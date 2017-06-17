@@ -58,6 +58,7 @@ td,th {
 }
 .bg_red_delete {
 	background: #DC5047;
+    border: none;
 	color: #fff;
 	font-size: 12px;
 	font-weight: bold;
